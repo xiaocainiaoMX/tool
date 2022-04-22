@@ -11,7 +11,7 @@ import (
 // custom datetime struct
 type MyDate sql.NullTime
 
-var dateFormat = "2006-01-02"
+const dateFormat = "2006-01-02"
 
 func (v MyDate) MarshalJSON() ([]byte, error) {
 	if v.Valid {
