@@ -1,8 +1,9 @@
 package slice
 
 import "reflect"
+
 // interface{} change to map[string]interface{}
-// interface{} data is []interface{}
+// list data is []interface{}
 func ListToMap(list interface{}, key string) map[string]interface{} {
 	res := make(map[string]interface{})
 	arr := ToSlice(list)
