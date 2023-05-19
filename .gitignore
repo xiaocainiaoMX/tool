@@ -1,0 +1,10 @@
+.idea
+*.log
+*.log.*
+.env
+*.key
+*.cer
+*.pem
+*.DS_Store
+logs
+.vscode
